@@ -1,12 +1,8 @@
+Ecommerce-Sanity based website
+(note: this does not contain cart and product page. This project just have a hompage that is connected with sanity in order to practice the connection between sanity and your frontend website which allows admin to update content of the website)
+A special thanks to @JavascriptMastery
 
-Modern Full Stack ECommerce Application with Stripe & Sanity
-![eCommerce](https://user-images.githubusercontent.com/70088342/160780701-7bb38a57-76bd-49a2-a4ec-49f89c50a7c7.png)
-
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
-
-**Build and Deploy a fully responsive Modern Full Stack Ecommerce application with Payments functionality**. With Modern design, animations, the ability to add and edit products on the go using a CMS, all advanced cart functionalities, and most importantly the complete integration with Stripe so that you can cover REAL payments. This is the best e-commerce website project that you can currently find on YouTube!
-
-In this video, you'll learn:
+this code contains:
 - Advanced React Best Practices such as
     - Folder and file structure, hooks and refs
 - Advanced State Management of the entire application using React Context API
