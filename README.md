@@ -1,17 +1,95 @@
-Ecommerce-Sanity based website
-(note: this does not contain cart and product page. This project just have a hompage that is connected with sanity in order to practice the connection between sanity and your frontend website which allows admin to update content of the website)
-A special thanks to @JavascriptMastery
 
-this code contains:
-- Advanced React Best Practices such as
-    - Folder and file structure, hooks and refs
-- Advanced State Management of the entire application using React Context API
-- Next.js Best Practices such as
-    - File-based routing, Data fetching that allows server-side rendering and static generation which makes your websites incredibly optimized (show getServerSideProps, getStaticPaths, getStaticProps), and you’ll also learn how to use Next.js as a backend endpoint.
-- You’ll learn how to integrate Stripe to manage payments, products, shipping rates, and the entire checkout process
-- And most importantly you’ll learn how to manage the entire content of your app using Sanity. Sanity is the unified content platform that’ll make the making of our entire app possible. <show sanity desk>
-- Through Sanity, you or your clients will be able to change the store’s homepage and more importantly, the details of all the products in the store, instantly and on the go!
-- Sanity allows us to focus on developing the application without having to worry about the content, file storage, and databases. They’ll cover the dirty work for us and allow us to build scalable and modern e-commerce web applications extremely easily.
+---
+
+# eCommerce Frontend – React + Sanity CMS
+
+This project is a clean and responsive eCommerce storefront powered by **React** and **Sanity CMS**. It features dynamic product management, cart functionality, and product detail pages — all built with scalable frontend architecture and modern design.
+
+---
+
+## ✨ Features
+
+* Dynamic product listing pulled from Sanity CMS  
+* Slug-based single product pages  
+* Shopping cart with item quantity management  
+* Mobile-first, responsive UI with Tailwind CSS  
+* CMS integration to add/edit/delete products without touching code  
+* Stripe integration (coming soon)
+
+---
+
+## 🧱 Folder Structure
+
+* `components/` – ProductCard, Cart, Header, Footer  
+* `pages/` – Home, Product Details  
+* `lib/` – Sanity API client and queries  
+* `sanity/` – Sanity Studio schema & setup  
+* `App.js` – Entry point and routes  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```
+
+git clone [https://github.com/LaeeqtheDev/ecommerce-sanity.git](https://github.com/LaeeqtheDev/ecommerce-sanity.git)
+cd ecommerce-sanity
+
+```
+
+### 2. Install dependencies
+
+```
+
+npm install
+
+```
+
+### 3. Start the frontend dev server
+
+```
+
+npm run dev
+
+````
+
+### 4. Set up Sanity Studio
+
+```bash
+cd sanity
+sanity install
+sanity start
+````
+
+> Make sure you have a [Sanity.io](https://www.sanity.io/) account and link the studio to your project ID.
+
+---
+
+## 🔐 Environment Variables (Optional for live CMS)
+
+```
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
+NEXT_PUBLIC_SANITY_DATASET=production
+```
+
+---
+
+## 🧑 Author
+
+Crafted by [Syed Laeeq Ahmed](https://www.linkedin.com/in/syed-laeeq-ahmed/)
+📧 Email: [laeeqahmed656@gmail.com](mailto:laeeqahmed656@gmail.com)
+🐙 GitHub: [github.com/LaeeqtheDev](https://github.com/LaeeqtheDev)
+
+---
+
+## 📄 License
+
+Open source for educational, demo, and portfolio use. For commercial implementations, please contact the author.
+
+---
+
 
 ![image](https://user-images.githubusercontent.com/70088342/160780701-7bb38a57-76bd-49a2-a4ec-49f89c50a7c7.png)
 ![image](https://user-images.githubusercontent.com/70088342/160780206-9cfe7c0a-3d8e-4a20-a055-b12efebe6c30.png)
